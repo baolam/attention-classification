@@ -26,7 +26,10 @@ class Graph(ABC):
     """
     if callable(algorithm) == False:
       raise ValueError("algorithm must be func")
-  
+
+    # Gọi giải pháp
+    algorithm(n, m)
+    
   def add_vertice(self, vertice : Node):
     # Tạm giả sử là đỉnh không trùng lắp
     self.vertices.append(vertice)

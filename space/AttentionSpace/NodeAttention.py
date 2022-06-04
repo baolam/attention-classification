@@ -14,8 +14,3 @@ class NodeAttention(Node, NatureSpace):
     """Không được kích thích
     """
     pass
-  
-  def forward_neighbor(self):
-    """Lan truyền sang hàng xóm
-    """
-    pass

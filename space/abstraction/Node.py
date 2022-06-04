@@ -20,3 +20,8 @@ class Node(ABC):
     assert check_list_data_type(neighbors, int)
     
     self.neighbors = neighbors
+  
+  def forward_neighbor(self):
+    """Lan truyền sang hàng xóm
+    """
+    raise NotImplementedError("hàm forward_neighbor phải được cài đặt")
