@@ -8,6 +8,6 @@ class GraphSpace(Graph):
     try:
       node = self.vertices[id]
       node.forward_neighbor()
-    except:
+    except InterruptedError:
       # Trường hợp id chưa tồn tại sẽ gọi hàm này
       pass
