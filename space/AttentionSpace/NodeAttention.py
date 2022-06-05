@@ -4,7 +4,7 @@ from .NatureSpace import NatureSpace
 class NodeAttention(Node, NatureSpace):
   def __init__(self, da):
     super(NodeAttention, self).__init__(da)
-  
+    
   def enable(self):
     """Được kích thích
     """

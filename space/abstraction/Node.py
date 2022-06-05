@@ -8,7 +8,8 @@ class Node(ABC):
     super(Node, self).__init__(da)
     
     # Một đỉnh được xác định bởi 1 tập các đỉnh liền kề  
-    self.neighbors : List[int] = []  
+    self.neighbors : List[int] = []
+    self.id = None  
     
   def update_neighbors(self, neighbors : List[int]):
     """Các đỉnh láng giềng
