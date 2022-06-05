@@ -1,6 +1,7 @@
 from ..abstraction import Graph
+from ..utils import Visit
 
-class GraphSpace(Graph):
+class GraphSpace(Graph, Visit):
   def __init__(self):
     super(GraphSpace, self).__init__()
     

@@ -32,7 +32,7 @@ class Graph(ABC):
     
   def add_vertice(self, vertice : Node):
     # Tạm giả sử là đỉnh không trùng lắp
-    self.vertices.append(vertice)
+    raise NotImplementedError("add_vertice phải được cài đặt")
     
   def on_forward_neighbor(self, id : int):
     raise NotImplementedError("hàm on_forward_neighbor phải được cài đặt")
